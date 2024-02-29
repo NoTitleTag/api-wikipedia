@@ -1,0 +1,85 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  background: #f1f1f1;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: clamp(20px, 5vw, 50px) 20px 20px;
+}
+
+
+header img {
+  width: 200px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px;
+  
+}
+
+header h1 {
+  font-weight: 400;
+  color: #333333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+header span {
+  font-weight: 800;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+main input {
+  display: block;
+  width: 100%;
+  margin: 0 auto 40px;
+  border: none;
+  height: 40px;
+  box-shadow: 0 3px 5px 0px #33333346;
+  padding: 0 10px;
+
+}
+
+main input:focus {
+  outline: none;
+  border-bottom: 1px solid #22222293;
+}
+
+.error-msg {
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #333333;
+  font-weight: 600;
+}
+
+.result {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.result-card {
+  margin-bottom: 15px;
+}
+
+.result-title a {
+  margin-bottom: 5px;
+  color: #1d1d1d;
+  text-decoration: none;
+}
+
+a.result-link {
+  display: inline-block;
+  text-decoration: none;
+  overflow-wrap: break-word;
+  color: #333333;
+  margin-bottom: 5px;
+}
